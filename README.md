@@ -86,13 +86,25 @@ The notebook uses:
 - LangChain
 - OpenAI chat models through `langchain_openai`
 
-The project expects a local `config.json` file with an OpenAI API key:
+## Setup
+
+This project expects a local `config.json` file with an OpenAI API key. The real `config.json` file is ignored by Git and should not be committed.
+
+Create it by copying the example file:
+
+```bash
+cp config.example.json config.json
+```
+
+Then edit `config.json` and replace the placeholder with your own OpenAI API key:
 
 ```json
 {
-  "OPENAI_API_KEY": "your_api_key_here"
+  "OPENAI_API_KEY": "your_openai_api_key_here"
 }
 ```
+
+The repository includes `config.example.json` so other users know which local configuration values are required.
 
 ## Running the Notebook
 
