@@ -182,3 +182,4 @@ cython_debug/
 
 # Local secrets
 config.json
+read_db.ipynb
