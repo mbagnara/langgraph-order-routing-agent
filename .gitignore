@@ -180,6 +180,24 @@ cython_debug/
 .cursorignore
 .cursorindexingignore
 
-# Local secrets
+# OS / editor artifacts
+.DS_Store
+
+# Local secrets and machine-specific config
 config.json
+*.env.local
+
+# Local scratch notebooks
 read_db.ipynb
+
+# Root-level virtual environment artifacts.
+# This project currently has a venv created directly in the repo root.
+/bin/
+/include/
+/lib/
+/lib64/
+/share/
+/pyvenv.cfg
+
+# Local/generated support data
+support_ticket_data.csv
